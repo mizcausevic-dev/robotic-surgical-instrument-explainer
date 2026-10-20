@@ -1,0 +1,177 @@
+{
+  "id": "p11",
+  "title": "Robotic Surgical Instrument",
+  "category": "Medical Technology",
+  "silhouette": "flow",
+  "slowMotion": false,
+  "falseColor": false,
+  "nodes": [
+    {
+      "id": "n1",
+      "glyph": "plate",
+      "label": "Proximal housing",
+      "role": "structure",
+      "x": 0.12,
+      "y": 0.32
+    },
+    {
+      "id": "n2",
+      "glyph": "shaft",
+      "label": "Shaft",
+      "role": "path",
+      "x": 0.373,
+      "y": 0.32
+    },
+    {
+      "id": "n3",
+      "glyph": "tendon",
+      "label": "Tendon routes",
+      "role": "path",
+      "x": 0.627,
+      "y": 0.32
+    },
+    {
+      "id": "n4",
+      "glyph": "wrist",
+      "label": "Wrist",
+      "role": "path",
+      "x": 0.88,
+      "y": 0.32
+    },
+    {
+      "id": "n5",
+      "glyph": "jaw",
+      "label": "Jaw articulation",
+      "role": "path",
+      "x": 0.2,
+      "y": 0.68
+    },
+    {
+      "id": "n6",
+      "glyph": "card",
+      "label": "Proximal sensing",
+      "role": "sense",
+      "x": 0.413,
+      "y": 0.68
+    },
+    {
+      "id": "n7",
+      "glyph": "can",
+      "label": "Optional insulated energy pathway",
+      "role": "energy",
+      "x": 0.627,
+      "y": 0.68
+    },
+    {
+      "id": "n8",
+      "glyph": "link",
+      "label": "Robotic arm",
+      "role": "path",
+      "x": 0.84,
+      "y": 0.68
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "role": "path",
+      "start": 0,
+      "end": 1019
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "role": "path",
+      "start": 150,
+      "end": 1019
+    },
+    {
+      "from": "n3",
+      "to": "n4",
+      "role": "path",
+      "start": 300,
+      "end": 1019
+    },
+    {
+      "from": "n4",
+      "to": "n5",
+      "role": "path",
+      "start": 300,
+      "end": 1019
+    },
+    {
+      "from": "n5",
+      "to": "n6",
+      "role": "sense",
+      "start": 510,
+      "end": 1019
+    },
+    {
+      "from": "n6",
+      "to": "n7",
+      "role": "energy",
+      "start": 510,
+      "end": 1019
+    },
+    {
+      "from": "n7",
+      "to": "n8",
+      "role": "path",
+      "start": 750,
+      "end": 1019
+    }
+  ],
+  "emphasis": [
+    [
+      "n1",
+      "n2"
+    ],
+    [
+      "n3"
+    ],
+    [
+      "n4",
+      "n5"
+    ],
+    [
+      "n6",
+      "n7"
+    ],
+    [
+      "n8"
+    ]
+  ],
+  "stages": [
+    {
+      "f0": 0,
+      "f1": 149,
+      "action": "Reveal proximal housing and shaft",
+      "detail": "Earlier hardware stays in frame. This step changes only what is emphasized."
+    },
+    {
+      "f0": 150,
+      "f1": 299,
+      "action": "Trace tendon routes",
+      "detail": "Earlier hardware stays in frame. This step changes only what is emphasized."
+    },
+    {
+      "f0": 300,
+      "f1": 509,
+      "action": "Show wrist and jaw articulation",
+      "detail": "Earlier hardware stays in frame. This step changes only what is emphasized."
+    },
+    {
+      "f0": 510,
+      "f1": 749,
+      "action": "Show proximal sensing and optional insulated energy pathway",
+      "detail": "Earlier hardware stays in frame. This step changes only what is emphasized."
+    },
+    {
+      "f0": 750,
+      "f1": 1019,
+      "action": "Pull back to robotic arm",
+      "detail": "Earlier hardware stays in frame. This step changes only what is emphasized."
+    }
+  ]
+}
