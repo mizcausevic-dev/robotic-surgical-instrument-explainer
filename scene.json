@@ -11,7 +11,7 @@
       "glyph": "plate",
       "label": "Proximal housing",
       "role": "structure",
-      "x": 0.12,
+      "x": 0.14,
       "y": 0.32
     },
     {
@@ -19,7 +19,7 @@
       "glyph": "shaft",
       "label": "Shaft",
       "role": "path",
-      "x": 0.373,
+      "x": 0.38,
       "y": 0.32
     },
     {
@@ -27,7 +27,7 @@
       "glyph": "tendon",
       "label": "Tendon routes",
       "role": "path",
-      "x": 0.627,
+      "x": 0.62,
       "y": 0.32
     },
     {
@@ -35,7 +35,7 @@
       "glyph": "wrist",
       "label": "Wrist",
       "role": "path",
-      "x": 0.88,
+      "x": 0.86,
       "y": 0.32
     },
     {
@@ -43,32 +43,32 @@
       "glyph": "jaw",
       "label": "Jaw articulation",
       "role": "path",
-      "x": 0.2,
-      "y": 0.68
+      "x": 0.14,
+      "y": 0.7
     },
     {
       "id": "n6",
       "glyph": "card",
       "label": "Proximal sensing",
       "role": "sense",
-      "x": 0.413,
-      "y": 0.68
+      "x": 0.38,
+      "y": 0.7
     },
     {
       "id": "n7",
       "glyph": "can",
       "label": "Optional insulated energy pathway",
       "role": "energy",
-      "x": 0.627,
-      "y": 0.68
+      "x": 0.62,
+      "y": 0.7
     },
     {
       "id": "n8",
       "glyph": "link",
       "label": "Robotic arm",
       "role": "path",
-      "x": 0.84,
-      "y": 0.68
+      "x": 0.86,
+      "y": 0.7
     }
   ],
   "edges": [
